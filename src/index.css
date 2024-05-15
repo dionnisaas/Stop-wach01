@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(200, 200, 244);
+}
+
+.stopwach{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: bisque;
+  padding: 60px;
+  margin-top: 20%;
+}
+.display{
+  font-size:5rem;
+  font-family: monospace;
+  color: rgb(97, 95, 95);
+  text-shadow: rgb(98, 221, 145);
+  margin-bottom: 50px;
+}
+
+.controls button{
+  font-size:3rem;
+  margin: 2px;
+}
+.star-button{
+  background-color: aquamarine;
+}
+.stop-button{
+  background-color: tomato;
+}
+.reset-button{
+  background-color: rgb(70, 125, 214);
+}
+.star-button:hover{
+  background-color: rgb(70, 125, 214);
+}
